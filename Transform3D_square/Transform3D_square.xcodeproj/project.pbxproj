@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBD69641F3ED1DD00747302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69631F3ED1DD00747302 /* main.m */; };
+		ECBD69671F3ED1DD00747302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69661F3ED1DD00747302 /* AppDelegate.m */; };
+		ECBD696A1F3ED1DD00747302 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69691F3ED1DD00747302 /* ViewController.m */; };
+		ECBD696D1F3ED1DD00747302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD696B1F3ED1DD00747302 /* Main.storyboard */; };
+		ECBD696F1F3ED1DD00747302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBD696E1F3ED1DD00747302 /* Assets.xcassets */; };
+		ECBD69721F3ED1DD00747302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD69701F3ED1DD00747302 /* LaunchScreen.storyboard */; };
+		ECBD697D1F3ED1DF00747302 /* Transform3D_squareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD697C1F3ED1DF00747302 /* Transform3D_squareTests.m */; };
+		ECBD69881F3ED1DF00747302 /* Transform3D_squareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBD69871F3ED1DF00747302 /* Transform3D_squareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBD69791F3ED1DF00747302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBD69571F3ED1DD00747302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBD695E1F3ED1DD00747302;
+			remoteInfo = Transform3D_square;
+		};
+		ECBD69841F3ED1DF00747302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBD69571F3ED1DD00747302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBD695E1F3ED1DD00747302;
+			remoteInfo = Transform3D_square;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBD695F1F3ED1DD00747302 /* Transform3D_square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transform3D_square.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD69631F3ED1DD00747302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECBD69651F3ED1DD00747302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECBD69661F3ED1DD00747302 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECBD69681F3ED1DD00747302 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECBD69691F3ED1DD00747302 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECBD696C1F3ED1DD00747302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECBD696E1F3ED1DD00747302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBD69711F3ED1DD00747302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECBD69731F3ED1DD00747302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBD69781F3ED1DF00747302 /* Transform3D_squareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Transform3D_squareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD697C1F3ED1DF00747302 /* Transform3D_squareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform3D_squareTests.m; sourceTree = "<group>"; };
+		ECBD697E1F3ED1DF00747302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBD69831F3ED1DF00747302 /* Transform3D_squareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Transform3D_squareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD69871F3ED1DF00747302 /* Transform3D_squareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform3D_squareUITests.m; sourceTree = "<group>"; };
+		ECBD69891F3ED1DF00747302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBD695C1F3ED1DD00747302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69751F3ED1DF00747302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69801F3ED1DF00747302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBD69561F3ED1DD00747302 = {
+			isa = PBXGroup;
+			children = (
+				ECBD69611F3ED1DD00747302 /* Transform3D_square */,
+				ECBD697B1F3ED1DF00747302 /* Transform3D_squareTests */,
+				ECBD69861F3ED1DF00747302 /* Transform3D_squareUITests */,
+				ECBD69601F3ED1DD00747302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBD69601F3ED1DD00747302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD695F1F3ED1DD00747302 /* Transform3D_square.app */,
+				ECBD69781F3ED1DF00747302 /* Transform3D_squareTests.xctest */,
+				ECBD69831F3ED1DF00747302 /* Transform3D_squareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBD69611F3ED1DD00747302 /* Transform3D_square */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69651F3ED1DD00747302 /* AppDelegate.h */,
+				ECBD69661F3ED1DD00747302 /* AppDelegate.m */,
+				ECBD69681F3ED1DD00747302 /* ViewController.h */,
+				ECBD69691F3ED1DD00747302 /* ViewController.m */,
+				ECBD696B1F3ED1DD00747302 /* Main.storyboard */,
+				ECBD696E1F3ED1DD00747302 /* Assets.xcassets */,
+				ECBD69701F3ED1DD00747302 /* LaunchScreen.storyboard */,
+				ECBD69731F3ED1DD00747302 /* Info.plist */,
+				ECBD69621F3ED1DD00747302 /* Supporting Files */,
+			);
+			path = Transform3D_square;
+			sourceTree = "<group>";
+		};
+		ECBD69621F3ED1DD00747302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69631F3ED1DD00747302 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECBD697B1F3ED1DF00747302 /* Transform3D_squareTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD697C1F3ED1DF00747302 /* Transform3D_squareTests.m */,
+				ECBD697E1F3ED1DF00747302 /* Info.plist */,
+			);
+			path = Transform3D_squareTests;
+			sourceTree = "<group>";
+		};
+		ECBD69861F3ED1DF00747302 /* Transform3D_squareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD69871F3ED1DF00747302 /* Transform3D_squareUITests.m */,
+				ECBD69891F3ED1DF00747302 /* Info.plist */,
+			);
+			path = Transform3D_squareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBD695E1F3ED1DD00747302 /* Transform3D_square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBD698C1F3ED1DF00747302 /* Build configuration list for PBXNativeTarget "Transform3D_square" */;
+			buildPhases = (
+				ECBD695B1F3ED1DD00747302 /* Sources */,
+				ECBD695C1F3ED1DD00747302 /* Frameworks */,
+				ECBD695D1F3ED1DD00747302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transform3D_square;
+			productName = Transform3D_square;
+			productReference = ECBD695F1F3ED1DD00747302 /* Transform3D_square.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBD69771F3ED1DF00747302 /* Transform3D_squareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBD698F1F3ED1DF00747302 /* Build configuration list for PBXNativeTarget "Transform3D_squareTests" */;
+			buildPhases = (
+				ECBD69741F3ED1DF00747302 /* Sources */,
+				ECBD69751F3ED1DF00747302 /* Frameworks */,
+				ECBD69761F3ED1DF00747302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBD697A1F3ED1DF00747302 /* PBXTargetDependency */,
+			);
+			name = Transform3D_squareTests;
+			productName = Transform3D_squareTests;
+			productReference = ECBD69781F3ED1DF00747302 /* Transform3D_squareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECBD69821F3ED1DF00747302 /* Transform3D_squareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBD69921F3ED1DF00747302 /* Build configuration list for PBXNativeTarget "Transform3D_squareUITests" */;
+			buildPhases = (
+				ECBD697F1F3ED1DF00747302 /* Sources */,
+				ECBD69801F3ED1DF00747302 /* Frameworks */,
+				ECBD69811F3ED1DF00747302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBD69851F3ED1DF00747302 /* PBXTargetDependency */,
+			);
+			name = Transform3D_squareUITests;
+			productName = Transform3D_squareUITests;
+			productReference = ECBD69831F3ED1DF00747302 /* Transform3D_squareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBD69571F3ED1DD00747302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lsh726;
+				TargetAttributes = {
+					ECBD695E1F3ED1DD00747302 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+					};
+					ECBD69771F3ED1DF00747302 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECBD695E1F3ED1DD00747302;
+					};
+					ECBD69821F3ED1DF00747302 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K74UKU9UG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECBD695E1F3ED1DD00747302;
+					};
+				};
+			};
+			buildConfigurationList = ECBD695A1F3ED1DD00747302 /* Build configuration list for PBXProject "Transform3D_square" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBD69561F3ED1DD00747302;
+			productRefGroup = ECBD69601F3ED1DD00747302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBD695E1F3ED1DD00747302 /* Transform3D_square */,
+				ECBD69771F3ED1DF00747302 /* Transform3D_squareTests */,
+				ECBD69821F3ED1DF00747302 /* Transform3D_squareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBD695D1F3ED1DD00747302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD69721F3ED1DD00747302 /* LaunchScreen.storyboard in Resources */,
+				ECBD696F1F3ED1DD00747302 /* Assets.xcassets in Resources */,
+				ECBD696D1F3ED1DD00747302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69761F3ED1DF00747302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69811F3ED1DF00747302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBD695B1F3ED1DD00747302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD696A1F3ED1DD00747302 /* ViewController.m in Sources */,
+				ECBD69671F3ED1DD00747302 /* AppDelegate.m in Sources */,
+				ECBD69641F3ED1DD00747302 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD69741F3ED1DF00747302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD697D1F3ED1DF00747302 /* Transform3D_squareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBD697F1F3ED1DF00747302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBD69881F3ED1DF00747302 /* Transform3D_squareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBD697A1F3ED1DF00747302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBD695E1F3ED1DD00747302 /* Transform3D_square */;
+			targetProxy = ECBD69791F3ED1DF00747302 /* PBXContainerItemProxy */;
+		};
+		ECBD69851F3ED1DF00747302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBD695E1F3ED1DD00747302 /* Transform3D_square */;
+			targetProxy = ECBD69841F3ED1DF00747302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBD696B1F3ED1DD00747302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBD696C1F3ED1DD00747302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBD69701F3ED1DD00747302 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBD69711F3ED1DD00747302 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBD698A1F3ED1DF00747302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBD698B1F3ED1DF00747302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBD698D1F3ED1DF00747302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = Transform3D_square/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.Transform3D-square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECBD698E1F3ED1DF00747302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = Transform3D_square/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.Transform3D-square";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECBD69901F3ED1DF00747302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = Transform3D_squareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.Transform3D-squareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transform3D_square.app/Transform3D_square";
+			};
+			name = Debug;
+		};
+		ECBD69911F3ED1DF00747302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = Transform3D_squareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.Transform3D-squareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transform3D_square.app/Transform3D_square";
+			};
+			name = Release;
+		};
+		ECBD69931F3ED1DF00747302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = Transform3D_squareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.Transform3D-squareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Transform3D_square;
+			};
+			name = Debug;
+		};
+		ECBD69941F3ED1DF00747302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K74UKU9UG7;
+				INFOPLIST_FILE = Transform3D_squareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transform3D-square.lsh726.Transform3D-squareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Transform3D_square;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBD695A1F3ED1DD00747302 /* Build configuration list for PBXProject "Transform3D_square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD698A1F3ED1DF00747302 /* Debug */,
+				ECBD698B1F3ED1DF00747302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBD698C1F3ED1DF00747302 /* Build configuration list for PBXNativeTarget "Transform3D_square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD698D1F3ED1DF00747302 /* Debug */,
+				ECBD698E1F3ED1DF00747302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECBD698F1F3ED1DF00747302 /* Build configuration list for PBXNativeTarget "Transform3D_squareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD69901F3ED1DF00747302 /* Debug */,
+				ECBD69911F3ED1DF00747302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECBD69921F3ED1DF00747302 /* Build configuration list for PBXNativeTarget "Transform3D_squareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBD69931F3ED1DF00747302 /* Debug */,
+				ECBD69941F3ED1DF00747302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBD69571F3ED1DD00747302 /* Project object */;
+}
